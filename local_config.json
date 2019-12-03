@@ -1,0 +1,22 @@
+{
+    "transis_config_prod" : {
+        "hostname" :"ENTER_YOUR_HOST_IP",
+        "port"     :"ENTER_YOUR_PORT_NUMBER",
+        "username" :"ENTER_YOUR_USERNAME",
+        "password" :"ENTER_YOUR_PASSWORD"
+    },
+    "di_framework_config" : {
+        "connection_details" : {
+            "host":"ENTER_YOUR_HOST_NAME",
+            "database":"ENTER_YOUR_DATABASE",
+            "user":"ENTER_YOUR_USERNAME",
+            "password":"ENTER_YOUR_PASSWORD"
+        },
+        "schema_name":"ENTER_YOUR_SCHEMA_NAME",
+        "job_name":"ENTER_YOUR_JOB_NAME"
+    },
+    "kinesis_config": {
+        "region_name": "ENTER_YOUR_REGION_NAME",
+        "stream_name" : "ENTER_YOUR_STREAM_NAME"
+    }                   
+}
